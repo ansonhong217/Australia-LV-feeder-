@@ -11,3 +11,5 @@ The paper describing the data cleaning and adaptation process is:
 C. H. Tam, F. Geth, M. Nadarajah, 'An inclusive model for a practical low-voltage feeder with explicit multi-grounded neutral wire',
 Accepted for the IEEE Sustainable Power and Energy Conference (iSPEC), December 2022, Perth, Australia
 
+the data is released under the following license:
+https://creativecommons.org/licenses/by/4.0/
