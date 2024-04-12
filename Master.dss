@@ -1,0 +1,30 @@
+Clear
+
+New Circuit.N  bus1=sourcebus_22000 pu=1.0 basekV=22.0
+Set DefaultBaseFrequency=50
+set earthmodel=Carson
+
+Redirect Transformers.dss
+Redirect New_linecode.dss
+Redirect new_line.txt
+Redirect N_loadshape.txt
+Redirect new_load_data.txt
+Redirect neutral_to_ground.txt
+
+!Set your own monitor
+!New monitor.T1_PQ_4wire element=Transformer.1 terminal=2 mode=1 ppolar=no 
+!New monitor.T1_VI_4wire element=Transformer.1 terminal=2 mode=0 
+!New monitor.Load27_PQ_4wire element=Load.LoadP27 terminal=1 mode=1 ppolar=no 
+!New monitor.Load27_VI_4wire element=Load.LoadP27 terminal=1 mode=0 
+
+
+Set Voltagebases=[0.4, 0.415, 22.0]
+
+Calcvoltagebases
+set maxcontroli = 2000
+
+Solve mode=daily stepsize=0.5h number=48
+
+!Solve mode=daily stepsize=0.5h number=1
+!Export monitor object=all
+
