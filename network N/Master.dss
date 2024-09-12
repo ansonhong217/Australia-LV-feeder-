@@ -1,0 +1,18 @@
+Clear
+
+New Circuit.N  bus1=sourcebus_22000 pu=1.0 basekV=22.0
+Set DefaultBaseFrequency=50
+set earthmodel=Carson
+
+Redirect new_transformer.txt
+Redirect new_linecode.txt
+Redirect new_line.txt
+Redirect new_load.txt
+Redirect new_reactor.txt
+
+Set Voltagebases=[0.4, 0.415, 22.0]
+
+Calcvoltagebases
+
+
+Solve

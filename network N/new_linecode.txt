@@ -1,0 +1,89 @@
+!!-------------------------------------wiredata-------------------------------------!!
+
+!!Overhead
+New Wiredata.Libra GMRac=3.265 Capradius=4.5 RAC=0.699 
+~ NormAmps=400
+~ Runits=km radunits=mm
+~ GMRunits=mm
+
+New Wiredata.Mars GMRac=4.081 Capradius=5.625 RAC=0.447 
+~ NormAmps=400
+~ Runits=km radunits=mm
+~ GMRunits=mm
+
+New Wiredata.Sultana GMRac=1.5 Capradius=4.5 RAC=1.17 
+~ NormAmps=400
+~ Runits=km radunits=mm
+~ GMRunits=mm
+
+!!Cable
+New Wiredata.LVABC2x50 GMRac=3.222 Capradius=4.44 RAC=0.718 
+~ NormAmps=400
+~ Runits=km radunits=mm
+~ GMRunits=mm
+
+New Wiredata.LVABC4x50 GMRac=3.222 Capradius=4.44 RAC=0.718
+~ NormAmps=400
+~ Runits=km radunits=mm
+~ GMRunits=mm
+
+
+New Wiredata.LVABC4x95 GMRac=4.773 Capradius=6.3 RAC=0.365
+~ NormAmps=400
+~ Runits=km radunits=mm
+~ GMRunits=mm
+
+!!-------------------------------------geometry-------------------------------------!!
+
+!!Overhead
+New Linegeometry.OH_Sultana_hori2w nconds=2 nphases=1
+~ cond=1 Wire=Sultana x=-1100  h=11175  units=mm
+~ cond=2 Wire=Sultana x=1100   h=11175  units=mm
+
+New Linegeometry.OH_Sultana_flat nconds=3 nphases=2 !horizontal plane (3w)
+~ cond=1 Wire=Sultana x=-1100  h=11175  units=mm
+~ cond=2 Wire=Sultana x=1100   h=11175  units=mm
+~ cond=3 Wire=Sultana x=0   h=11175  units=mm
+
+New Linegeometry.OH_Sultana_hori4w nconds=4 nphases=3
+~ cond=1 Wire=Sultana x=-1100  h=11175  units=mm
+~ cond=2 Wire=Sultana x=-450   h=11175  units=mm
+~ cond=3 Wire=Sultana x=450    h=11175  units=mm
+~ cond=4 Wire=Sultana x=1100   h=11175  units=mm
+
+New Linegeometry.OH_Mars_hori4w nconds=4 nphases=3
+~ cond=1 Wire=Mars x=-1100  h=11175  units=mm
+~ cond=2 Wire=Mars x=-450   h=11175  units=mm
+~ cond=3 Wire=Mars x=450    h=11175  units=mm
+~ cond=4 Wire=Mars x=1100   h=11175  units=mm
+
+New Linegeometry.OH_Libra_hori4w nconds=4 nphases=3
+~ cond=1 Wire=Libra x=-1100  h=11175  units=mm
+~ cond=2 Wire=Libra x=-450   h=11175  units=mm
+~ cond=3 Wire=Libra x=450    h=11175  units=mm
+~ cond=4 Wire=Libra x=1100   h=11175  units=mm
+
+!!Cable
+New Linegeometry.Cable_LVABC2x50 nconds=2 nphases=1
+~ cond=1 Wire=LVABC2x50 x=-5.94  h=7487.0  units=mm
+~ cond=2 Wire=LVABC2x50 x=5.94  h=7487.0  units=mm
+
+New Linegeometry.Cable_LVABC4x50 nconds=4 nphases=3
+~ cond=1 Wire=LVABC4x50 x=5.94  h=7492.94  units=mm
+~ cond=2 Wire=LVABC4x50 x=-5.94  h=7492.94  units=mm
+~ cond=3 Wire=LVABC4x50 x=-5.94  h=7481.06  units=mm
+~ cond=4 Wire=LVABC4x50 x=5.94  h=7481.06  units=mm
+
+New Linegeometry.Cable_LVABC4x95 nconds=4 nphases=3
+~ cond=1 Wire=LVABC4x95 x=8.0  h=7495.0  units=mm
+~ cond=2 Wire=LVABC4x95 x=-8.0  h=7495.0  units=mm
+~ cond=3 Wire=LVABC4x95 x=-8.0  h=7479.0  units=mm
+~ cond=4 Wire=LVABC4x95 x=8.0  h=7479.0  units=mm
+
+
+
+
+
+
+
+
