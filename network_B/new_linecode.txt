@@ -1,0 +1,11 @@
+New Wiredata.UGC240x4Al GMRac=8.083 Capradius=8.683 RAC=0.144 
+~ Radius=1 !prevent error"conductors occupying same location"
+~ NormAmps=400
+~ Runits=km radunits=mm
+~ GMRunits=mm
+
+New Linegeometry.Cable_UGC240x4Al nconds=4 nphases=3
+~ cond=1 Wire=UGC240x4Al x=10.83  h=989.655  units=mm
+~ cond=2 Wire=UGC240x4Al x=-10.83  h=989.655  units=mm
+~ cond=3 Wire=UGC240x4Al x=-10.83  h=1010.345  units=mm
+~ cond=4 Wire=UGC240x4Al x=10.83  h=1010.345  units=mm

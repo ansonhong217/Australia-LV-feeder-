@@ -1,0 +1,6 @@
+New Line.line0 Units=km Length=0.01104 bus1=51.1.2.3.4 bus2=52.1.2.3.4 switch=n enabled=y phases=3 Geometry=Cable_UGC240x4Al
+New Line.line1 Units=km Length=0.03551 bus1=52.1.2.3.4 bus2=53.1.2.3.4 switch=n enabled=y phases=3 Geometry=Cable_UGC240x4Al
+New Line.line2 Units=km Length=0.001 bus1=53.1.2.3.4 bus2=2.1.2.3.4 switch=n enabled=y phases=3 Geometry=Cable_UGC240x4Al
+New Line.line3 Units=km Length=0.07269 bus1=52.1.2.3.4 bus2=54.1.2.3.4 switch=n enabled=y phases=3 Geometry=Cable_UGC240x4Al
+New Line.line4 Units=km Length=0.001 bus1=54.1.2.3.4 bus2=1.1.2.3.4 switch=n enabled=y phases=3 Geometry=Cable_UGC240x4Al
+New Line.line5 Units=km Length=0.001 bus1=1.1.2.3.4 bus2=3.1.2.3.4 switch=n enabled=y phases=3 Geometry=Cable_UGC240x4Al
