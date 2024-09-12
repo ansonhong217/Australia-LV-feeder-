@@ -1,0 +1,9 @@
+New Reactor.T_ground phases=1 bus1=3102961.4 bus2=3102961.0 R=1 X=0
+New Reactor.HG1 phases=1 bus1=3108550.4 bus1=3108550.0 R=10 X=0
+New Reactor.HG2 phases=1 bus1=3106088.4 bus1=3106088.0 R=10 X=0
+New Reactor.HG3 phases=1 bus1=3108551.4 bus1=3108551.0 R=10 X=0
+New Reactor.HG4 phases=1 bus1=3108561.4 bus1=3108561.0 R=10 X=0
+New Reactor.HG5 phases=1 bus1=3106340.4 bus1=3106340.0 R=10 X=0
+New Reactor.HG6 phases=1 bus1=3108673.4 bus1=3108673.0 R=10 X=0
+New Reactor.HG7 phases=1 bus1=3104767.4 bus1=3104767.0 R=10 X=0
+New Reactor.HG8 phases=1 bus1=3106259.4 bus1=3106259.0 R=10 X=0

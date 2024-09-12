@@ -1,0 +1,8 @@
+New Load.1 bus1=3108550.3.4 kV=0.23094010767585033 Vminpu=0.1 Vmaxpu=1.9 model=1 kW=1 pf=0.9 Phases=1
+New Load.2 bus1=3106088.2.4 kV=0.23094010767585033 Vminpu=0.1 Vmaxpu=1.9 model=1 kW=1 pf=0.9 Phases=1
+New Load.3 bus1=3108551.2.4 kV=0.23094010767585033 Vminpu=0.1 Vmaxpu=1.9 model=1 kW=1 pf=0.9 Phases=1
+New Load.4 bus1=3108561.2.4 kV=0.23094010767585033 Vminpu=0.1 Vmaxpu=1.9 model=1 kW=1 pf=0.9 Phases=1
+New Load.5 bus1=3106340.1.4 kV=0.23094010767585033 Vminpu=0.1 Vmaxpu=1.9 model=1 kW=1 pf=0.9 Phases=1
+New Load.6 bus1=3108673.1.4 kV=0.23094010767585033 Vminpu=0.1 Vmaxpu=1.9 model=1 kW=1 pf=0.9 Phases=1
+New Load.7 bus1=3104767.2.4 kV=0.23094010767585033 Vminpu=0.1 Vmaxpu=1.9 model=1 kW=1 pf=0.9 Phases=1
+New Load.8 bus1=3106259.2.4 kV=0.23094010767585033 Vminpu=0.1 Vmaxpu=1.9 model=1 kW=1 pf=0.9 Phases=1

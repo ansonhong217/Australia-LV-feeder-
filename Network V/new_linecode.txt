@@ -1,0 +1,44 @@
+!!-------------------------------------wiredata-------------------------------------!!
+
+!!Overhead
+
+New Wiredata.Moon GMRac=5.17 Capradius=7.125 RAC=0.279  
+~ NormAmps=400
+~ Runits=km radunits=mm
+~ GMRunits=mm
+
+New Wiredata.Sultana GMRac=1.5 Capradius=4.5 RAC=1.17 
+~ NormAmps=400
+~ Runits=km radunits=mm
+~ GMRunits=mm
+
+!!Cable 
+New Wiredata.LVABC2x50 GMRac=3.222 Capradius=4.44 RAC=0.718 
+~ NormAmps=400
+~ Runits=km radunits=mm
+~ GMRunits=mm
+
+
+!!-------------------------------------Geometry-------------------------------------!!
+
+!!Overhead
+New Linegeometry.OH_Moon_hori2w nconds=2 nphases=1
+~ cond=1 Wire=Moon x=-1100  h=11175  units=mm
+~ cond=2 Wire=Moon x=1100   h=11175  units=mm
+
+New Linegeometry.OH_Sultana_hori2w nconds=2 nphases=1
+~ cond=1 Wire=Sultana x=-1100  h=11175  units=mm
+~ cond=2 Wire=Sultana x=1100   h=11175  units=mm
+
+New Linegeometry.OH_Moon_hori4w nconds=4 nphases=3
+~ cond=1 Wire=Moon x=-1100  h=11175  units=mm
+~ cond=2 Wire=Moon x=-450   h=11175  units=mm
+~ cond=3 Wire=Moon x=450    h=11175  units=mm
+~ cond=4 Wire=Moon x=1100   h=11175  units=mm
+
+New Linegeometry.Cable_LVABC2x50 nconds=2 nphases=1
+~ cond=1 Wire=LVABC2x50 x=-5.94  h=7487.0  units=mm
+~ cond=2 Wire=LVABC2x50 x=5.94  h=7487.0  units=mm
+
+
+
